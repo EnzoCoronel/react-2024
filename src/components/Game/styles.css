@@ -1,0 +1,133 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAF8EF;
+    position: relative;
+}
+
+.game.dark-theme {
+    background-color: #505375;
+}
+
+.up_class1{
+    animation-name: moveUp;
+    animation-duration: 0.5s;
+}
+
+.down_class1{
+    animation-name: moveDown;
+    animation-duration: 0.5s;
+}
+
+.left_class1{
+    animation-name: moveLeft;
+    animation-duration: 0.5s;
+}
+
+.right_class1{
+    animation-name: moveRight;
+    animation-duration: 0.5s;
+}
+
+.up_class2{
+    animation-name: moveUU;
+    animation-duration: 0.5s;
+}
+
+.down_class2{
+    animation-name: moveDD;
+    animation-duration: 0.5s;
+}
+
+.left_class2{
+    animation-name: moveLL;
+    animation-duration: 0.5s;
+}
+
+.right_class2{
+    animation-name: moveRR;
+    animation-duration: 0.5s;
+}
+
+.up_class3{
+    animation-name: moveUUU;
+    animation-duration: 0.5s;
+}
+
+.down_class3{
+    animation-name: moveDDD;
+    animation-duration: 0.5s;
+}
+
+.left_class3{
+    animation-name: moveLLL;
+    animation-duration: 0.5s;
+}
+
+.right_class3{
+    animation-name: moveRRR;
+    animation-duration: 0.5s;
+}
+
+@keyframes moveUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0%); }
+}
+
+@keyframes moveDown {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0%); }
+}
+
+@keyframes moveLeft {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0%); }
+}
+
+@keyframes moveRight {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0%); }
+}
+
+@keyframes moveUU {
+    from { transform: translateY(200%); }
+    to { transform: translateY(0%); }
+}
+
+@keyframes moveDD {
+    from { transform: translateY(-200%); }
+    to { transform: translateY(0%); }
+}
+
+@keyframes moveLL {
+    from { transform: translateX(200%); }
+    to { transform: translateX(0%); }
+}
+
+@keyframes moveRR {
+    from { transform: translateX(-200%); }
+    to { transform: translateX(0%); }
+}
+
+@keyframes moveUUU {
+    from { transform: translateY(300%); }
+    to { transform: translateY(0%); }
+}
+
+@keyframes moveDDD {
+    from { transform: translateY(-300%); }
+    to { transform: translateY(0%); }
+}
+
+@keyframes moveLLL {
+    from { transform: translateX(300%); }
+    to { transform: translateX(0%); }
+}
+
+@keyframes moveRRR {
+    from { transform: translateX(-300%); }
+    to { transform: translateX(0%); }
+}

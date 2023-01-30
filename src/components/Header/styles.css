@@ -1,0 +1,22 @@
+.header {
+    width: 100vw;
+    max-width: 600px;
+    justify-content: space-around;
+    padding-bottom: 1.2rem;
+    height: 8.125rem;
+}
+
+.title {
+    font-size: 4rem;
+    color: #776e65;
+    margin: 0;
+}
+
+.button.dark-theme {
+    background-color: #888EB3;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+}

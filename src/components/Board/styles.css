@@ -1,0 +1,7 @@
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+		max-width: 600px;
+    background-color: rgb(187, 173, 160);
+    padding: 5px;
+}
